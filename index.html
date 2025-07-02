@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meus Desafios</title>
+</head>
+<body>
+
+    <h1>Meus Primeiros Scripts</h1>
+
+    <button onclick="jogoNumeroSecreto()">Jogo 1</button>
+    <br>
+    <button onclick="calculaMedia()">Jogo 2</button>
+    <br>
+    <button onclick="mostraForm()">Abrir Formulario</button>
+
+    <div id="form-container" style="display:none;">
+        <h3>Formulario</h3>
+        <form onsubmit="enviaForm(); return false;">
+            Nome: <input id="nome"><br>
+            Email: <input id="email"><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="numero_secreto_iniciante.js"></script>
+    <script src="calculo_media_iniciante.js"></script>
+    <script src="formulario_iniciante.js"></script>
+
+</body>
+</html>
